@@ -1,3 +1,5 @@
+# Pintar paredes #
+
 alt = float(input('Entre com a altura :'))
 lar = float(input('Entre com a largura :'))
 a = (alt*lar)
