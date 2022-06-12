@@ -1,5 +1,3 @@
-#---------------------------------------#
-print('Antecessor e sucessor')
-#---------------------------------------#
-n = int(input('Digite um número :'))
-print('O antecessor de {} é {} e o sucessor é {}'.format(n,n-1,n+1))
+# Dobro,triplo, a raiz quadrada #
+n = int(input('Digite um valor :'))
+print('O dobro do valor digitada vale {}, o triplo vale {} e a raiz quadrada vale {:.2f}. '.format(n*2,n*3,pow(n,(1/2))))
