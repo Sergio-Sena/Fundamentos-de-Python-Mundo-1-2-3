@@ -19,3 +19,6 @@ for i in range (180):
     ninja.right(2)
 
 turtle.done()
+
+
+
