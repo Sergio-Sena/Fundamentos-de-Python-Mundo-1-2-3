@@ -2,14 +2,14 @@
 
 import turtle
 ninja = turtle.Turtle()
-ninja.speed(30)
+ninja.speed(15)
 
-for i in range (180):
+for i in range (90):
     ninja.forward(100)
     ninja.right(30)
     ninja.forward(20)
-    ninja.left(60)
     ninja.forward(50)
+    ninja.left(60)
     ninja.forward(30)
 
     ninja.penup()
