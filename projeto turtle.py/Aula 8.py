@@ -3,8 +3,6 @@
 # from modulo item
 
 import math
-
-import emoji
 num = int(input('Digte um número :'))
 raiz = math.sqrt(num)
 print('A raiz quadrada de {} aredondada para cima é igual a {}'.format(num,math.ceil(raiz)))
