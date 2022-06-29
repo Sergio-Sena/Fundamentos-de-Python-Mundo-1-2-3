@@ -1,4 +1,4 @@
-# o mesmo professor do dedafio antarior quer sortear a ordem de apresentação dos alunos.Faça um programa que leia o nome o nome dos alunos e mostra a ordem sorteada. 
+# o mesmo professor do desafio anterior quer sortear a ordem de apresentação dos alunos.Faça um programa que leia o nome o nome dos alunos e mostra a ordem sorteada. 
 from random import shuffle
 n1 = input('Primeiro aluno: ')
 n2 = input('Segundo aluno: ')
