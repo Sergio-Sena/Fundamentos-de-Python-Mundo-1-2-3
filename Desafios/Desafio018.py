@@ -1,0 +1,1 @@
+#crie um programa que calcule a hiponusa de um cateto e o cateto oposto.

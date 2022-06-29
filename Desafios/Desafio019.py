@@ -1,0 +1,1 @@
+#Calcule o Seno Coseno a Tangente de um ângulo

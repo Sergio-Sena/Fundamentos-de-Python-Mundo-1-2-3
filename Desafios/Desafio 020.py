@@ -1,0 +1,1 @@
+# Um poroseddor quer soterar um dos seis quantro alunos para apagar o quadro, ajude ele lendo os nomes escrevendo o nome do escolhido.
