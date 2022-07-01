@@ -1,0 +1,1 @@
+#Faça que leia o nome da cidade e verifique se o nome da cidade começa com 'santo'#
