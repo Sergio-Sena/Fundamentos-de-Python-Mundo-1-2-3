@@ -6,8 +6,8 @@ print('''#Desafio#
 # 4-quantas letras tem o primeiro nome #''')
 
 nome = input('Digite seu nome completo: ')
-print(nome.upper())
-print(nome.lower())
-print(len(nome))
+print('1- todas as letras maiúsculas:', (nome.upper()))
+print('2- todas as letras minusculas:', (nome.lower()))
+print('3- quantas letras ao todo sem considerar espaços:', (len(nome)))
 pn = nome.split()
-print(len(pn[0]))
+print('4- Primeiro nome:',pn[0],(len(pn[0])),'Letras')
