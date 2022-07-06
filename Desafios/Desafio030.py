@@ -1,0 +1,1 @@
+#Crie um progrma que leia um número e mostre na tela se ele é PAR ou IMPAR.

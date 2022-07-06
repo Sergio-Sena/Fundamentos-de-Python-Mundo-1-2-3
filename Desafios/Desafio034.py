@@ -1,0 +1,1 @@
+#Faça em programa que leia um salario e calcule o valor de aumento de 10% para salarios acima de 1.250,00 e de 15% para salarios abaixo 1.250,00

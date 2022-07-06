@@ -1,11 +1,8 @@
-# módulos python #
-# import
-# from modulo item
-
-import math
-from random import random
-num = int(input('Digte um número :'))
-raiz = math.sqrt(num)
-print('A raiz quadrada de {} aredondada para cima é igual a {}'.format(num,math.ceil(raiz)))
-print('A raiz quadrada de {} aredondada para baixo é {} '.format(num,math.floor(raiz)))
-num = random.randint (1, 4)
+# import modulo randon #
+import random
+print('Gerado um número aleátorio entre 1 e 10' )
+num = random.randint(1, 10)
+print(num)
+#===================#
+import emoji
+print(emoji.emojize('Olá mundo :earth_americas:',use_aliases=True))
