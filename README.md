@@ -10,7 +10,7 @@
   <img align="center" alt="sergio-visualstudio" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg">
     </div>
   
-  ##
+
  
 <div> 
  	<a href = "mailto:senanetworker@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
