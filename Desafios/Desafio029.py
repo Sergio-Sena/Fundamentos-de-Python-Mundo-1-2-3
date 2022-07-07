@@ -5,6 +5,6 @@ km = float(input('Qual foi a velocidade medida? '))
 vel = 80
 multa = 7
 if km <=(vel):
-    print(' ')
+    print('Bom dia. Dirija com segurança!')
 else:
-    print('Você foi multado por excesso de velocidade. A multa gerada foi de R${:.2f}.'.format((km-80)*7))
+    print('Você foi multado por excesso de velocidade que é de 80km/h. A multa gerada foi de R${:.2f}.'.format((km-80)*7))
