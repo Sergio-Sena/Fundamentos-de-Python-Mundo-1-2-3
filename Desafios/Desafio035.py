@@ -1,1 +1,8 @@
-#Desenvolva um programa que peça tre valores de retas e diga ai usuario se podem ou nao formar um triangulo.
+#Desenvolva um programa que peça tres valores de retas e diga se o  usuário se pode ou não formar um triangulo.
+n1 = int(input('Digite o valor da primeira reta: '))
+n2 = int(input('Digite o valor da segunda reta: '))
+n3 = int(input('Digite o valor da terceira: '))
+if n1 < n2+n3 and n2 < n1+n3 and n3 < n2 + n3: 
+    print( 'Com Os valores digitados {},{},{}  é possivel fazer um triângulo.'.format(n1,n2,n3))
+else:
+    print('Com os valores digitados {},{},{} não é possivel formar um triângulo.'.format(n1,n2,n3))
