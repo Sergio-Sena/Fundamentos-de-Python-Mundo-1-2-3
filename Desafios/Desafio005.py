@@ -1,5 +1,12 @@
+from time import sleep
 #---------------------------------------#
 print('Antecessor e sucessor')
 #---------------------------------------#
+cores ={'limpa':'\033[m',
+'verde':'\033[32m',
+ 'amarelo':'\033[33m',
+ 'azul':'\033[034m'}
 n = int(input('Digite um número :'))
-print('Analisando o número o antecessor de {} é {} e o sucessor é {}'.format(n, (n-1),(n+1)))
+print('Analisando...')
+sleep(1)
+print('Número digitado  {}{}{}\nNúmero antecessor {}{}{}\nNúmero sucessor é {}{}'.format(cores['amarelo'],n,cores['limpa'],cores['verde'],n-1,cores['limpa'],cores['azul'],n+1))
