@@ -1,4 +1,4 @@
-#crie um peograma para quebrar a maldição
+#crie um programa para quebrar a maldição
 
 cores = {'limpa':'\033[m',
 'branco':'\033[30m',
@@ -10,4 +10,4 @@ cores = {'limpa':'\033[m',
 'ciano':'\033[36m',
 'cinza':'\033[37m',}
 
-print(cores['amarelo'], 'Olá mundo, me livrei da maldição!')
+print(cores['amarelo'], 'Olá mundo, me livrei da maldição!',cores['limpa'])

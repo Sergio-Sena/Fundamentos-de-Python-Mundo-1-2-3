@@ -1,4 +1,4 @@
-#Crie um programa so leia 2 numeros e mostre a soma deles na tela.
+#Crie um programa queleia 2 números e mostre a soma deles na tela.
 cores = {'limpa':'\033[m',
 'azul':'\033[34m',
 'verde':'\033[32m',

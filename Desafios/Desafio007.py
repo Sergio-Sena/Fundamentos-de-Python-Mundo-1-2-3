@@ -7,4 +7,4 @@ cores = {'limpa':'\033[m',
 nome = input('Digite o nome do aluno :')
 n1 = float(input('Digite a primeira nota :'))
 n2 = float(input('Digite a segunda nota :'))
-print('A média do aluno {}{}{} foi {}{:.1f}'.format(cores['ciano'],nome,cores['limpa'], (n1+n2)/2))
+print('A média do aluno {}{}{} foi {:.1f}'.format(cores['ciano'],nome,cores['limpa'], (n1+n2)/2))

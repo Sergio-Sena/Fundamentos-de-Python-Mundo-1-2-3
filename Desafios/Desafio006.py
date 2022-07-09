@@ -1,4 +1,4 @@
-#Crie um program que leia um numero e mostre na tela o  Dobro,triplo, e raiz quadrada #
+#Crie um programa que leia um número e mostre na tela o  Dobro,triplo, e raiz quadrada #
 
 n = int(input('Digite um valor :'))
 cores = {'limpa':'\033[m',
