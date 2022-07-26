@@ -10,7 +10,6 @@ from random import randint
 cont = 1
 jogador = int(input('Digite o número que eu pensei: '))
 cpu = randint(0,10)
-print(cpu)
 #laço de repetição
 while jogador != cpu:
     print('Tente de novo.')
