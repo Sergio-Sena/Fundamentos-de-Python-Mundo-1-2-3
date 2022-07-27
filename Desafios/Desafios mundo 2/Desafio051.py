@@ -2,8 +2,8 @@
 print('-='*25)
 print('10 PRIMEIROS TERMOS DE UMA PA')
 print('-='*25)
-primeiro = int(input('Digite um número: '))
-razao = int(input('Digite um número: '))
+primeiro = int(input('Digite o termo: '))
+razao = int(input('Digite a razão: '))
 decimo = primeiro + (10 - 1) * razao
 for c in range(primeiro,decimo+ razao,razao):
     print('{} '.format(c), end='-> ')
