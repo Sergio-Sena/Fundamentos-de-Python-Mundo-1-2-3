@@ -6,9 +6,9 @@
 
 resp = 'S'
 cont = 1
-toth = 0
-idadeM = 0
-idade = 0
+tothomen = 0
+menoridade = 0
+Maioridade = 0
 while resp not in 'Nn':
     idade = int(input('Digite a idade :'))
     sexo = str(input('Digite o sexo: [M/F] ')).upper().strip()
@@ -17,11 +17,11 @@ while resp not in 'Nn':
     if resp == 'S':
         cont += 1
     if idade > 18:
-        idade += 1
-    if sexo =='M':
-        toth += 1
-    if sexo == 'F' and sexo == 'F':
-        idadeM += 1 
+        Maioridade += 1
+    if sexo == 'M':
+        tothomen += 1
+    if sexo == 'F' and idade < 20:
+        menoridade += 1
     if resp == 'N':
         break
-print (f'Total de {cont} pessoas sendo {idadeM} maior de 18 anos, {toth} homens e {idadeM} mulheres menor de 20.' )
+print (f'Total de {cont} pessoas sendo {Maioridade} maior de 18 anos, {tothomen} homens e {menoridade} mulheres menor de 20.' )
