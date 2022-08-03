@@ -13,5 +13,5 @@ print('+-'*25)
 
 item = str(input('Digite o produto: '))
 valor = float(input('Digite o valor do produto: '))
-ytyjuhresp = ('Quer continuar? [S/N]: ').upper().strip()[0]
+resp = ('Quer continuar? [S/N]: ').upper().strip()[0]
 print(f'Item:{item} Valor:{valor} Continuar?{resp}')    
