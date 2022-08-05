@@ -4,9 +4,7 @@ cont = ('zero', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito',
 resp =''
 while True:
     num = int(input('Digite um número entre 0 e 20: '))
-    resp = str(input('Quer continuar?[S/N] ')).upper().strip()
-    if 0 <= num <= 20 and resp == 'N':
+    if 0 <= num <= 20:
         break
-    print(f'Você digitou o número {cont[num]}')
     print('Tente novamente. ',end ='')
 print(f'Você digitou o número {cont[num]}')
