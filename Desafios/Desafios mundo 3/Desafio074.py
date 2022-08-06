@@ -4,4 +4,3 @@ from random import randint
 for lista in range(0,5):
     lista = (randint(0,10))
     print(lista)
-
