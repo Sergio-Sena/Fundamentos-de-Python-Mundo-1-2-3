@@ -18,13 +18,13 @@ cores = {'limpa':'\033[m',
 nasc = int(input('Digite a data do seu nascimento com 4 digitos XXXX: '))
 idade = date.today().year - nasc
 if idade  <=9:
-    print('O atelata tem {} anos.Sua categoria é mirin.'.format(idade ))
+    print(f'O atelata tem {idade} anos.Sua categoria é mirin.')
 elif idade <= 14:
-    print('O atleta tem {} anos. Sua classe é Infantil'.format(idade))
+    print(f'O atleta tem {idade} anos. Sua classe é Infantil')
 elif idade <= 19:
-    print('O atleta tem {} anos. Sua categoria é junior.'.format(idade))
+    print(f'O atleta tem {idade} anos. Sua categoria é junior.')
 elif idade <= 20:
-    print('O atleta tem {} anos. Sua categoria é Senior.'.format(idade))
+    print(f'O atleta tem {idade} anos. Sua categoria é Senior.')
 else:
-    print('O atleta tem {} anos. Sua categoria de master.'.format(idade))
+    print(f'O atleta tem {idade} anos. Sua categoria de master.')
 
