@@ -5,3 +5,37 @@
 # C) Uma listagem com as pessoas mais leves.
 
 # Ler nome e peso
+from time import sleep
+
+temp = []
+princ = []
+mai = men = 0
+while True:
+    temp.append(str(input("Digite o nome: ")))
+    temp.append(float(input("Digite o peso: ")))
+    if len(princ) == 0: 
+        mai = men = temp[1]
+    else:
+        if temp[1] > mai:
+            mai = temp[1]
+        if temp[1] < men:   
+            men = temp[1]
+    princ.append(temp[:])
+    temp.clear()
+    resp = str(input("Quer contnuar?[S/N]: "))
+    if resp in "Nn":
+        break
+print("-=" *30)
+print(f"Você cadastrou {len(princ)} pessoas")
+print(f"O maior peso foi {mai} kg. Peso de",end ='')
+for p in princ:
+    if p[1] == mai:
+        print(f"{[p[0]]}")
+print('-=' *30)
+print(f'O menor peso foi {men} kg. Peso de ',end ='')
+for p in princ:
+    if p[1] == men:
+        print(f"{[p[0]]}")
+print("-=" *30)
+print('Finalizando.....')
+sleep(2)
