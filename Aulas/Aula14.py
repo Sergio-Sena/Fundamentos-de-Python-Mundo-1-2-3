@@ -1,4 +1,4 @@
-#Estrutura while(laço de repetição)
+#Estrutura while(laço de repetição ou loop)
 n = 1
 par = impar = 0
 while n != 0:
