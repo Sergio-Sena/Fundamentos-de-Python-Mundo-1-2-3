@@ -14,7 +14,7 @@ def área() :
     c = float(input('Qual o cumprimento do Terreno ?: ')) 
     a = l*c
     sleep(1)
-    print(f'A área do seu terreno de de {a} m².')    
+    print(f'A área do seu terreno de de {a:2.2f} m².')    
 
 lin()
 área()
