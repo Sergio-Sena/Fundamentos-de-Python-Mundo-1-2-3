@@ -1,18 +1,16 @@
 # Exercício Python 101: Crie um programa que tenha uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma pessoa, retornando um valor literal indicando se uma pessoa tem voto NEGADO, OPCIONAL e OBRIGATÓRIO nas eleiçõe
 
-from datetime import date
-
-def voto():
-    if idade > 18:
-        return ('Voto Negado' )
-    elif idade < 18 and idade > 70:
-        return ('Voto Obrigatorio')
+def voto(ano):
+    from datetime import date
+    atual = date.today().year
+    idade = atual - ano
+    if idade < 16:
+        print(f' Com {idade}: Não Vota.') 
+    elif 16 < idade < 18 or idade > 65:
+        print(f'Com {idade}: O Voto é facultativo.')
     else:
-        return( 'Voto facultativo')  
+        print(f'Com {idade} o voto é obrigatório') 
 
-
-hoje = date.today().year
-nasc = int(input('Digite a date de Nasc.: '))
-idade = hoje - nasc
-voto(idade)
-print (f'Seu voto é {voto(idade)}')
+#Programa Principal
+nasc = int(input('Em que ano você nasceu?: '))
+print (voto(nasc))
