@@ -1,5 +1,6 @@
 # Um professor quer sortear um dos seus quantro alunos para apagar o quadro, ajude ele lendo os nomes escrevendo o nome do escolhido.
 from random import choice 
+
 n1 = input('Primeiro aluno: ')
 n2 = input('Segundo aluno: ')
 n3 = input('Terceiro aluno: ')

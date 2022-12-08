@@ -1,5 +1,6 @@
 #Calcule o Seno Coseno a Tangente de um ângulo
 from math import sin,cos,tan,radians
+
 ângulo = float(input('Digite o angulo que você deseja: '))
 seno = sin(radians(ângulo))
 print('O ângulo de {} tem o SENO de {:.2f}'.format(ângulo, seno)) 
