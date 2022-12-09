@@ -13,5 +13,6 @@
             "username": "sena Database",
             "password": ""
         }
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }
